@@ -1,8 +1,8 @@
 clc,clear,close all
-%% Ò»Î¬¶È
+%% ä¸€ç»´åº¦
 x_i=-10:0.1:10;
-y_i=F(x_i);%²úÉúÑù±¾µã
-x=-10:0.001:10;% ¸ºÊıÓĞÎÊÌâ
+y_i=F(x_i);%äº§ç”Ÿæ ·æœ¬ç‚¹
+x=-10:0.001:10;
 y=ADB1(x_i,y_i,x);
 figure(1);
 plot(x_i,y_i,'*');
@@ -12,5 +12,5 @@ hold on
 plot(x,zeros(size(x)),'LineWidth',1);
 xlabel('t/s');
 ylabel('E/v');
-title('µçÑ¹±ä»¯Êı²åÖµ');
+title('ç”µå‹å˜åŒ–æ•°æ’å€¼');
 hold off
